@@ -4,7 +4,7 @@ var browserfs = require('./fs.js')
 
 module.exports = function (opts) {
   if (!opts) opts = {}
-  opts.db = level('test')
-  opts.fs = browserfs
+  if (!opts.db) opts.db = level('./datdb')
+  if (!opts.fs) opts.fs = browserfs
   return dat(opts)
 }
