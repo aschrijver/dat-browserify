@@ -13,10 +13,11 @@
   "author": "Karissa McKelvey <karissa@karissamck.com> (http://karissamck.com/)",
   "license": "MIT",
   "dependencies": {
-    "memdb": "^1.3.1",
-    "dat": "git+https://github.com/maxogden/dat.git",
-    "pump": "^1.0.1",
+    "debug": "^2.2.0",
+    "hyperdrive": "^4.1.0",
     "level-browserify": "^1.1.0",
-    "through2": "^2.0.0"
+    "pump": "^1.0.1",
+    "signalhub": "^4.3.2",
+    "webrtc-swarm": "^2.4.0"
   }
 }
