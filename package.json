@@ -1,6 +1,6 @@
 {
   "name": "dat-browserify",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Use dat in the browser.",
   "main": "index.js",
   "scripts": {
